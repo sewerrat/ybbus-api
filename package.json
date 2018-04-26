@@ -1,0 +1,28 @@
+{
+  "name": "ybbus-api",
+  "version": "1.0.0",
+  "description": "api for ybbus project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sewerrat/ybbus-api.git"
+  },
+  "keywords": [
+    "ybbusapi"
+  ],
+  "author": "sewerrat",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sewerrat/ybbus-api/issues"
+  },
+  "homepage": "https://github.com/sewerrat/ybbus-api#readme",
+  "dependencies": {
+    "hapi": "^17.3.1",
+    "inert": "^5.1.0",
+    "mongoose": "^5.0.16",
+    "sexy-require": "^1.1.1"
+  }
+}

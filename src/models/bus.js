@@ -1,8 +1,8 @@
 const db = require('../db.js')
 const Bus = db.model('Bus', {
-    username: {type: String, required: true},
-    body: {type: String, required: true},
-    date: { type: Date, required: true, default: Date.now }  
+    reg_number: {type: String, required: true},
+    phone: {type: String, required: true},
+    
 })
 
 module.exports = Post
